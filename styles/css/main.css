@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  position: relative;
+  padding: 10% 20%;
+}
+.container .burger {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container .burger .burger_img {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .burger .burger_img .to,
+.container .burger .burger_img .up {
+  max-width: 400px;
+}
+.container .burger .burger_img button {
+  display: inline-block;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+.container .burger .burger_price {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container .burger .burger_price ul {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container .burger .burger_price ul li {
+  display: flex;
+  gap: 10px;
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .burger .burger_price .button {
+  display: flex;
+  gap: 30px;
+}
+.container .burger .burger_price .button button {
+  padding: 7px 14px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: yellow;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.container .burger .burger_price .button button:hover {
+  transform: scale(1.17);
+  opacity: 0.8;
+}
+.container .burger .burger_price .jew {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.container .burger .burger_price .jew .send {
+  padding: 7px 14px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: rgb(156, 156, 14);
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.container .burger .burger_price .jew .send-w {
+  padding: 7px 14px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  color: rgb(156, 156, 14);
+  font-weight: bold;
+}
+.container .burger .burger_price .jew h2 {
+  color: white;
+  font-size: 24px;
+}/*# sourceMappingURL=main.css.map */
